@@ -1,0 +1,28 @@
+{
+  "accuracy": 0.9739910313901345,
+  "precision": 0.9918032786885246,
+  "recall": 0.8120805369127517,
+  "f1": 0.8929889298892989,
+  "roc_auc": 0.9877860686147817,
+  "false_positive_rate": 0.0010351966873706005,
+  "confusion_matrix": [
+    [
+      965,
+      1
+    ],
+    [
+      28,
+      121
+    ]
+  ],
+  "confusion_labels": [
+    "ham",
+    "spam"
+  ],
+  "n_train": 4457,
+  "n_test": 1115,
+  "vocab_size": 3401,
+  "dataset_source": "UCI SMS Spam Collection (5,572 real labeled messages)",
+  "n_spam": 747,
+  "n_ham": 4825
+}
